@@ -1,4 +1,5 @@
 import os
+
 """
 Django settings for django_backend project.
 
@@ -89,7 +90,7 @@ DATABASES = {
         'NAME': 'portfolio',
         'USER': 'admin',
         'PASSWORD': 'password',
-        'HOST': 'localhost'
+        'HOST': ['localhost', 'ec2-18-211-215-8.compute-1.amazonaws.com']
     }
 }
 
